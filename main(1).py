@@ -5,5 +5,5 @@ for i in range(1, Var):
         x = Var%i
         if x==0:
             factors.append(i)
-print("The Prime factors are :", factors)
+print("The Factors are :", factors)
 input()
