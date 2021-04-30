@@ -15,5 +15,5 @@ for i in range(2, Var-1):
 if len(factors)==0:
     factors.append(Var)
     
-print("The Prime factors are :", factors)
+print("The Prime factorisation of", Var,"is :", factors)
 input()
