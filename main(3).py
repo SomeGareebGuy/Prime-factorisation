@@ -12,6 +12,8 @@ for i in range(2, Var-1):
                 factors.append(i)
             else:
                 break
-
+if len(factors)==0:
+    factors.append(Var)
+    
 print("The Prime factors are :", factors)
 input()
